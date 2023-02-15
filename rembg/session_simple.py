@@ -12,7 +12,7 @@ class SimpleSession(BaseSession):
         ort_outs = self.inner_session.run(
             None,
             self.normalize(
-                img, (0.485, 0.456, 0.406), (0.229, 0.224, 0.225), (320, 320)
+                img, (0.35127439, 0.41381017, 0.35015712), (0.27045389,0.23063521,0.24228486), (320, 320)
             ),
         )
 
